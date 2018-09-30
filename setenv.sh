@@ -13,4 +13,3 @@ vim -c 'PluginInstall' -c 'qa!'
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer --java-completer
 
-
