@@ -1,1 +1,3 @@
-shellcode for my shell environment
+#shellcode for environment setup
+
+package requirement: zsh
