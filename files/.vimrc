@@ -11,7 +11,7 @@ noremap <C-j> 5j
 noremap <C-k> 5k
 noremap <C-Up> 5k
 noremap <C-Down> 5j
-
+colorscheme ron
 " Vundle
 set nocompatible              " be iMproved, required
 filetype off                  " required
