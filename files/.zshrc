@@ -5,12 +5,12 @@
   export ZSH=/home/cobalt/.oh-my-zsh
   
   #configuration for apache ant
-ANT_HOME=/home/cobalt/programs/apache-ant-1.10.3
-PATH=$PATH:$HOME/bin:$ANT_HOME/bin
+# ANT_HOME=/home/cobalt/programs/apache-ant-1.10.3
+# PATH=$PATH:$HOME/bin:$ANT_HOME/bin
 PATH=$PATH:/home/cobalt/.local/bin
-PATH=$PATH:/home/cobalt/programs/clion-2018.2.1/bin
+# PATH=$PATH:/home/cobalt/programs/clion-2018.2.1/bin
 
-export ANT_HOME ANT_OPTS PATH
+# export ANT_HOME ANT_OPTS PATH
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -107,10 +107,10 @@ alias vi="vim"
 alias tmux="TERM=screen-256color-bce tmux"
 
 TERMAPP=`ps -p$PPID | awk 'NR==2 {print $4}'`
-if [ "$TERMAPP" != "tilix" ]; then
-    ~/.transparency.sh 18
-fi
+#if [ "$TERMAPP" != "tilix" ]; then
+#    ~/.transparency.sh 18
+#fi
 
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
+#if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+#        source /etc/profile.d/vte.sh
+#fi
