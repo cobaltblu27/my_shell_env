@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 #synclient TapButton1=1 TapButton2=3 TapButton3=2
 alias vi="vim"
 alias tmux="TERM=screen-256color-bce tmux"
-
+alias rsub="~/.rsub"
 TERMAPP=`ps -p$PPID | awk 'NR==2 {print $4}'`
 #if [ "$TERMAPP" != "tilix" ]; then
 #    ~/.transparency.sh 18
