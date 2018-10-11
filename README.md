@@ -7,16 +7,16 @@ need to type exit after oh-my-zsh is installed
 make vimrc for not using some plugins  
   
 ### uses
-rsub: https://github.com/henrikpersson/rsub
-vundle: https://github.com/VundleVim/Vundle.vim
-oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
-Plugins:
-Raimondi/delimitMate
-yggdroot/indentline
-scrooloose/nerdtree
-vim-airline/vim-airline
-vim-airline/vim-airline-themes
-Valloric/YouCompleteMe
-
-theme:
-modified from https://github.com/sindresorhus/pure
+rsub: https://github.com/henrikpersson/rsub  
+vundle: https://github.com/VundleVim/Vundle.vim  
+oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh  
+Plugins:  
+Raimondi/delimitMate  
+yggdroot/indentline  
+scrooloose/nerdtree  
+vim-airline/vim-airline  
+vim-airline/vim-airline-themes  
+Valloric/YouCompleteMe  
+  
+theme:  
+modified from https://github.com/sindresorhus/pure  
