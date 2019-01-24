@@ -1,6 +1,6 @@
 # shellcode for environment setup
 
-package requirement: zsh, cmake  
+package requirement: zsh, cmake, python, python-dev  
 need to type exit after oh-my-zsh is installed  
 
 ### todo  
