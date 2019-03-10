@@ -11,6 +11,7 @@ noremap <C-j> 5j
 noremap <C-k> 5k
 noremap <C-Up> 5k
 noremap <C-Down> 5j
+map <silent> <C-n> :NERDTreeToggle<CR>
 colorscheme ron
 " Vundle
 set nocompatible              " be iMproved, required
@@ -33,7 +34,7 @@ Plugin 'scrooloose/nerdtree'
 " vim-airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Valloric/YouCompleteMe' 
+" Plugin 'Valloric/YouCompleteMe' 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -53,7 +54,7 @@ function! StartUp()
     NERDTree
 endfunction
 " uncomment to start NERDTree on startup
-autocmd VimEnter * call StartUp()
+" autocmd VimEnter * call StartUp()
 
 " delimitMate
 let delimitMate_expand_cr=1
