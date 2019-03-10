@@ -17,7 +17,7 @@ then
 
 else
     echo "Skipping zsh.."
-    cp ./files/.bashrc ~/
+    cat files/.bashrc >> ~/.bashrc 
 fi
 
 if [ -d ~/.vim/bundle/Vundle.vim ] 
