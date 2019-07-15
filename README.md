@@ -20,3 +20,10 @@ Valloric/YouCompleteMe
   
 theme:  
 modified from https://github.com/sindresorhus/pure  
+
+# features  
+
+- refined oh-my-zsh theme with timestamps  
+- neovim with all the essential but not to much plugins  
+- rsub for subl ssh integration(vscode doesn't seem to need one)  
+- and others
