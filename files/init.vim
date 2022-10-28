@@ -11,13 +11,14 @@ noremap <C-j> 5j
 noremap <C-k> 5k
 noremap <C-Up> 5k
 noremap <C-Down> 5j
+map <silent> <C-n> :NERDTreeToggle<CR>
+map <silent> <C-t> :TagbarToggle<CR>
+tnoremap <Esc> <C-\><C-n>
 
-nmap 7 :res +2 <CR>
-nmap 8 :res -2 <CR>
-nmap 9 :vertical res +2<CR>
-nmap 0 :vertical res -2<CR>
-
-tnoremap <Esc> <C-\><C-n><CR>
+if match($TERM, "screen") != -1
+  set ttymouse=xterm2
+endif
+set mouse=a
 
 colorscheme ron
 " Vundle
@@ -38,13 +39,11 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'yggdroot/indentline'
 Plugin 'scrooloose/nerdtree'
+Plugin 'majutsushi/tagbar'
 " vim-airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Valloric/YouCompleteMe' 
-" Plugin 'w0rp/ale'
-" execute pathogen#infect()
-
+" Plugin 'Valloric/YouCompleteMe' 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -64,7 +63,8 @@ function! StartUp()
     NERDTree
 endfunction
 " uncomment to start NERDTree on startup
-"autocmd VimEnter * call StartUp()
-map <silent> <C-n> :NERDTreeToggle<CR>
+" autocmd VimEnter * call StartUp()
+
 " delimitMate
 let delimitMate_expand_cr=1
+
